@@ -21,7 +21,7 @@ x0 = [0; 0; 0; 0];  % [theta1; theta2; dtheta1; dtheta2]
 %% ================= Stato di riferimento =================
 x_ref = [pi/4; pi/6; 0; 0];  % posizione target dei due link
 
-%% ================= Disegno iniziale =================
+%% ================= Disegno iniziale/finale =================
 draw_robotic_arm(x_ref, params); % FORNIRE ANCHE x0
 
 %% ================= Funzione principale =================
